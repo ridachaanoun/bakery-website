@@ -7,13 +7,15 @@
     <link rel="icon" href="bakery website pictures/Modrino__2_-removebg-preview 1.png">
     <link rel="stylesheet" href="style/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Sansita+Swashed:wght@300;400;500;600;700;800&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
         <div class="container">
             <nav>
                 <i><img src="bakery website pictures/Modrino__2_-removebg-preview 1.png" alt=""></i>
-                <ul class="nav_liks">
+                <i id="hamburger" class="fa-solid fa-bars"></i>
+                <ul class="nav_liks" id="navLinks">
                     <li>
                         <a href="">Home</a>
                     </li>
@@ -205,4 +207,12 @@
             <p class="c2024">© 2024 Bake House. All rights reserved</p>
         </footer>
 </body>
+<script>
+    document.getElementById("hamburger").addEventListener("click", function() {
+        // document.body.style="background-color: #933C24;"
+    var navLinks = document.getElementById("navLinks");
+    
+    navLinks.classList.toggle("cnavLinks"); // Toggle the "show" class to display the links
+});
+</script>
 </html>
