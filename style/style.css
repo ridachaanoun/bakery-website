@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +8,7 @@
 header{
     /* width: 100vw; */
     height: 100vh;
-    background-image: url('../../bakery website pictures/home picture/image 1.png');
+    background-image: url('../bakery website pictures/home picture/image 1.png');
     background-size: cover; /* Ensures the image covers the entire header */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat;
@@ -34,6 +33,7 @@ nav{
     display: flex;
     padding-top: 20px;
     gap: 100px;
+    font-family: 'Poppins';
 }
 .nav_liks{
     list-style: none;
@@ -50,6 +50,7 @@ header p:last-of-type{
     width: 450px;
     font-size: 70px;
     font-weight: 800;
+    font-family: 'Sansita Swashed';
 }
 header p:first-of-type{
     /* background-color: rgb(32, 221, 70); */
@@ -57,6 +58,7 @@ header p:first-of-type{
     width: 300px;
     font-size: 27px;
     font-weight: 500;
+    font-family: 'Inter';
 }
 .h_bottoms button:first-child{
     background-color: #933C24;
@@ -256,7 +258,6 @@ font-family: 'Poppins';
     height: 550px;
     align-items: center;
     padding: 0 50px;
-
 }
 .Featured h2{
     font-size: 64px;
@@ -278,6 +279,7 @@ footer{
     display: flex;
     flex-direction: column;
     font-family: 'Poppins';
+    margin-top: 100px;
 }
 footer .Follow {
     color:#E9BD8D;
@@ -329,4 +331,121 @@ footer .c2024{
     font-size: 24px;
     font-family: 'inter';
     color: #737373;
+}
+.Contact{
+    /* background-color: aqua; */
+    font-family: 'Poppins';
+    display: flex;
+    height: 700px;
+    justify-content: space-between;
+    max-width: 1600px;
+}
+.Contact .container-of-contact{
+    /* background-color: #933C24; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+.Contact .email-pone-map{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-between;
+}
+.Contact .email-pone-map i{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    align-items: center;
+}
+.c-us{
+    font-size: 46px;
+    text-align: center;
+    margin: 40px 0;
+    color: #F19631;
+    font-family: 'Poppins';
+
+}
+.container-of-contact p:first-of-type{
+    font-size: 48px;
+    width: 400px;
+    font-weight: bold;
+
+}
+.container-of-contact div:last-of-type{
+    /* font-size: 48px; */
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+.selected{
+    background-color: hsla(32, 87%, 57%, 0.3);
+    width: 320px;
+    height: 50px;
+    border: solid #F19631 3px;
+    border-radius: 16px;
+    color: white;
+
+}
+.container-of-form{
+    background-color: #EEEEEE;
+    padding: 0 30px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.container-of-form >p{
+    font-size: 20px;
+}
+.container-of-form div button{
+    font-size: 20px;
+    width: 160px;
+    height: 55px;
+    border: solid 1.5px #2e024958;
+    border-radius: 10px;
+    color: #09060b3f;
+
+}
+.container-of-form >div{
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.container-of-form form{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.container-of-form form input{
+    height: 80px;
+    border: none;
+    padding-top: 50px;
+    border-bottom: 2px solid hsla(277, 95%, 15%, 0.221);
+    background:none;
+    font-size: medium;
+}
+.container-of-form .selected-input{
+    border-bottom: 2px solid #F19631;
+    color: black;
+}
+.container-of-form .selected-bottom{
+    background-color: #F19631;
+    border: none;
+    color: white;
+}
+.send-bottom{
+    background-color: #F19631;
+    width: 300px;
+    font-size: 20px;
+    height: 55px;
+    border: solid 1.5px #2e024958;
+    border-radius: 10px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
 }
